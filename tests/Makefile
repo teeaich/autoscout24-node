@@ -1,0 +1,1 @@
+mocha *.test.js --ignore-leaks -t 10000
