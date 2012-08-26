@@ -1,0 +1,13 @@
+{
+  "name": "autoscout24-node",
+  "version": "0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teeaich/autoscout24-node.git"
+  },
+  "keywords": [
+    "api",
+    "sdk"
+  ],
+  "license": "MIT"
+}

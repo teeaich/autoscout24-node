@@ -55,7 +55,18 @@ describe('test autoscout24 api', function(){
 			if (err) {
 				console.log(err);
 				throw err;
-			} 
+			}
+			assert.ok(res.status.statusCode === '0000');
+			done();
+		});
+	});
+	it('should get model tree data without error',function(done){
+		//var query = {};
+		Autoscout24Client.findModelTreeData(savedToken, function(err,res){
+			console.log(res);
+			if (err) {
+				throw err;
+			}
 			assert.ok(res.status.statusCode === '0000');
 			done();
 		});
