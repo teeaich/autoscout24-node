@@ -14,7 +14,7 @@ Please consider that two of the three main 'REST Methods' are implemented.
 
 - findArticles
 - getLookUpData
-- getMakeModelTree (not implemented yet)
+- getMakeModelTree 
 
 ### Getting Started
 Before getting started make sure you put your 'developer garden' credentials in settings.js. 
