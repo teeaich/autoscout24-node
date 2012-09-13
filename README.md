@@ -4,9 +4,9 @@ A simple client implementation to access autoscout24 api for/in node.js
 
 ## Installation
 
-At the moment just available from here. Please clone...
-More coming soon.
-
+```bash
+npm install autoscout24-node
+```
 
 ## Usage
 
